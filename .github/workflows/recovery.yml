@@ -6,7 +6,7 @@ on:
       RECOVERY_URL:
         description: 'RECOVERY URL'
         required: true
-        default: 'https://drive.google.com/file/d/1woIvi3u6a_3jUP5-Uh_J-hjiOZ1Vn_pp/view?usp=sharing'
+        default: 'https://transfer.sh/(RECOMMENDED)'
 
 env:
   RECOVERY_URL: https://oshi.at/Rpjg
@@ -48,7 +48,7 @@ jobs:
         mv fastbootd-recovery.tar fastbootd-recovery.tar.md5
 
     - name: Upload Recovery
-      uses: actions/upload-artifact@v4.0.0
+      uses: actions/upload-artifact@v4
       with:
         path: /home/runner/work/Patch-Recovery/Patch-Recovery/output/*.md5
         name: Patched-Recovery
