@@ -1,3 +1,6 @@
+# Patch Recovery for Samsung Tab A8 2021(SM-X205)
+This patched is from the recovery.img of SM-X205
+
 # Similar script
 You can also refer this [script](https://github.com/engineer4t/fastboot-patcher)
 
